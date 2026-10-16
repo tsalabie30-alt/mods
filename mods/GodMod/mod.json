@@ -1,30 +1,30 @@
 {
-    "name": "GodMod",
-    "author": "NotRexed",
+    "name": "POWER",
+    "author": "TARIQ",
     "version": "1.0.0",
-    "description": "Gives Insanely Good Die",
+    "description": "op",
     "dice": [
         {
-            "ide": "100xmult",
+            "ide": "777",
             "rarity": 1,
-            "prio": 5,
+            "prio": 10,
             "sprite": "sprites/test_die.png",
             "faces": [
-                {"value": 0},
-                {"value": 0},
-                {"value": 0}
+                {"value": 100},
+                {"value": 10000},
+                {"value": 1000000}
             ],
-            "faces_desc": "[spr_dice_icon,0] 100x",
+            "faces_desc": "[spr_dice_icon,0] power",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "mult_all", "value": 10000000000000000000000 },
+            "effect": { "type": "mult_all", "value": 10000000000000 },
             "title": "100x Multiplier",
-            "description": "Multiplies all dice by 100."
+            "description": "Multiplies all dice by a lot."
         }
     ],
     "rings": [
         {
-            "ide": "test_ring",
+            "ide": "yuta",
             "rarity": 1,
             "prio": 0,
             "func": "mid",
@@ -32,7 +32,7 @@
             "sprite_big": "sprites/test_ring_big.png",
             "kw": ["face"],
             "tag": [],
-            "effect": { "type": "mult_all", "value": 2 },
+            "effect": { "type": "mult_all", "value": 1000 },
             "title": "Test Ring",
             "description": "Multiplies all dice by 2."
         }
